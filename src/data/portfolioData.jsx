@@ -1,6 +1,9 @@
 import { FiSmartphone, FiMonitor, FiServer
 } from 'react-icons/fi';
 import { FaDatabase } from 'react-icons/fa6';
+import fotoPresentacion from '../assets/Presentacion.png';
+import fotoApp1 from '../assets/App1.jpg';
+import fotoApp2 from '../assets/App2.jpg';
 
 export const skillsData = [
     { title: "Prototipado y FrontEnd", icon: <FiMonitor className="text-cyan-400 text-2xl" />, techs: ["Figma", "React", "Tailwind CSS", "TypeScript", "Bootstrap", "Angular"] },
@@ -14,21 +17,21 @@ export const projects = [
         title: "Web Corporativa",
         desc: "Diseño y desarrollo integral de la plataforma web corporativa para la empresa Rectima Industry Cia. Ltda. Arquitectura moderna y optimizada que mejoró la velocidad de carga y la conversión de clientes potenciales, asegurando una experiencia de usuario fluida y una identidad de marca sólida en línea.",
         tech: ["React", "Node.js", "Sql Server", "Mysql"],
-        image: "/src/assets/Presentacion.png",
+        image: fotoPresentacion,
         link: "https://www.rectima.com.ec/",
     },
     {
         title: "Ventas y Estadisticas App Móvil",
         desc: "Aplicativo mutiplataforma integral para la fuerza de ventas, facilita la recaudación en campo, registro de cheques y depósitos, mas verificación de cumplimiento diario.",
         tech: ["Ionic", "React", "Express.js", "Node.js", "Sql Server"],
-        image: "/src/assets/App1.jpg",
+        image: fotoApp1,
         link: "#",
     },
     {
         title: "Sipre App Móvil",
         desc: "Aplicación móvil multiplataforma orientada en modulos para la creación de rutas logisticas, registro de activos, mantenimientos y control de asistencia.",
         tech: ["React Native", "NestJS", "PostgreSQL"],
-        image: "/src/assets/App2.jpg",
+        image: fotoApp2,
         link: "#",
     },
 ];
